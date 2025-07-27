@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ":octocat: Microsoft Windows"
+title: ":memo: Microsoft Windows"
 description: "Contents"
 date: "2025/07/27"
 lastmod: "2025/07/27"

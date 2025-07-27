@@ -18,7 +18,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
-  <script type="text/javascript" src="sha256.js"></script>
 
 {% seo %}
 
@@ -150,7 +149,7 @@
 	<div class="dropdown-divider"></div>
 	<a class="dropdown-item" href="/Contents/VisualStudio/VsCodePlugin">Microsoft Visual Studio Codeのプラグイン</a>
 	<a class="dropdown-item" href="/Contents/SublimeText3/PackageControl">Sublime Text3プラグイン</a>
-  <li><a class="dropdown-item" href="/Contents/Electronic/Sekibun">積分回路について</a></li>
+  <li><a class="dropdown-item" href="{{ page.description }}/Electronic/Sekibun">積分回路について</a></li>
 	<li><a class="dropdown-item" href="{{ page.description }}/Electronic/PicTimer1">PICマイコン／タイマー１</a></li>
       </div>
       </div>
@@ -161,7 +160,7 @@
 </header>
 
 <div id="container2">
-      <p class="tagline">{{ page.title | default: site.github.repository_name }}</p>
+      <!-- <p class="tagline">{{ page.title | default: site.github.repository_name }}</p> -->
 </div>
 
 <div class="wrapper">
@@ -169,7 +168,7 @@
       作成日付：{{ page.date }}、更新日付：{{ page.lastmod }}
       <div class="download-bar">
         <div class="inner">
-	      {{ page.description | default: site.github.project_tagline }}
+	      {{ page.title | default: site.github.project_tagline }}
 	        <!-- <a href="/" class="download-button zip"><span>Home</span></a>
           {% if site.show_downloads %}
           <a href="{{ site.github.tar_url }}" class="download-button tar"><span>Download</span></a>
@@ -220,39 +219,5 @@
       
     </script>
   {% endif %}
-
-  <script>
-  function hash(text) {
-        const sha = new jsSHA('SHA-256', 'TEXT');
-        sha.update(text);
-        return sha.getHash('HEX');
-      }
-      function auth(password) {
-        const url = hash(password);
-        const xhr = new XMLHttpRequest();
-        xhr.open('GET', url);
-        xhr.send();
-        xhr.onload = function () {
-          if (xhr.readyState === 4 && xhr.status === 200) {
-            window.location = url;
-          } else {
-            const message = document.getElementById('message');
-            const input = document.getElementById('password');
-            message.innerHTML = 'パスワードが違います。もう一度入力してください。';
-            input.value = '';
-          }
-        };
-        xhr.onerror = function () {
-          const message = document.getElementById('message');
-          message.innerHTML = 'Sorry, ERROR !';
-        };
-      }
-      const form = document.getElementById('form');
-      form.addEventListener('submit', function (event) {
-        const password = document.getElementById('password').value;
-        auth(password);
-        event.preventDefault();
-      });
-  </script>
 </body>
 </html>

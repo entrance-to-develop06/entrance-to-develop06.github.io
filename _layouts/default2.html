@@ -28,15 +28,14 @@
 
 
 <div id="container2">
-      <p class="tagline">{{ page.title | default: site.github.repository_name }}</p>
+      <!-- <p class="tagline">{{ page.title | default: site.github.repository_name }}</p> -->
 </div>
   <div class="wrapper">
-    
       <div id="main" role="main">
 	作成日付：{{ page.date }}、更新日付：{{ page.lastmod }}
         <div class="download-bar">
         <div class="inner">
-	  {{ page.description | default: site.github.project_tagline }}
+	  {{ page.title | default: site.github.project_tagline }}
 	  <!-- <a href="/" class="download-button zip"><span>Home</span></a>
           {% if site.show_downloads %}
           <a href="{{ site.github.tar_url }}" class="download-button tar"><span>Download</span></a>
