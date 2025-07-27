@@ -6,6 +6,26 @@ date: "2020/05/17"
 lastmod: "2023/04/07"
 ---
 
+<form id="form">
+      <p id="message">Please enter your password.</p>
+      <input type="text" placeholder="password" id="password" style="font-family: 'Roboto Mono';">
+      <p id="result" style="text-align: left; font-family: 'Roboto Mono'; font-size: 20.5px;">Hashed: </p>
+    </form>
+    <script>
+      function hash(text) {
+        const sha = new jsSHA('SHA-256', 'TEXT');
+        sha.update(text);
+        return sha.getHash('HEX');
+      }
+      const form = document.getElementById('form');
+      form.addEventListener('submit', function (event) {
+        const password = document.getElementById('password').value;
+        const result = document.getElementById('result');
+        result.innerHTML = 'Hashed: ' + hash(password);
+        event.preventDefault();
+      });
+    </script>
+
 ## はじめに  
 開発環境の構築方法やプログラムの書き方を忘れたり、メモ書きを捨てたり、ファイルをどうしても消したりしてしまうため忘れないための個人的なメモをまとめて置くことにします。  
 
