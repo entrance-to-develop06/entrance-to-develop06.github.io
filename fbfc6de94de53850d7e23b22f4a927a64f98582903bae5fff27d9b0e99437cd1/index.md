@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ":octocat: Microsoft Windows"
-description: ":computer: トップページ"
+description: "Contents"
 date: "2025/07/27"
 lastmod: "2025/07/27"
 ---

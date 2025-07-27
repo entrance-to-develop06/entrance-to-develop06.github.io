@@ -151,7 +151,7 @@
 	<a class="dropdown-item" href="/Contents/VisualStudio/VsCodePlugin">Microsoft Visual Studio Codeのプラグイン</a>
 	<a class="dropdown-item" href="/Contents/SublimeText3/PackageControl">Sublime Text3プラグイン</a>
   <li><a class="dropdown-item" href="/Contents/Electronic/Sekibun">積分回路について</a></li>
-	<li><a class="dropdown-item" href="/Contents/Electronic/PicTimer1">PICマイコン／タイマー１</a></li>
+	<li><a class="dropdown-item" href={{ page.description }} "//Electronic/PicTimer1">PICマイコン／タイマー１</a></li>
       </div>
       </div>
 
@@ -163,29 +163,28 @@
 <div id="container2">
       <p class="tagline">{{ page.title | default: site.github.repository_name }}</p>
 </div>
-  <div class="wrapper">
-    
-      <div id="main" role="main">
-	作成日付：{{ page.date }}、更新日付：{{ page.lastmod }}
-        <div class="download-bar">
+
+<div class="wrapper">
+    <div id="main" role="main">
+      作成日付：{{ page.date }}、更新日付：{{ page.lastmod }}
+      <div class="download-bar">
         <div class="inner">
-	  {{ page.description | default: site.github.project_tagline }}
-	  <!-- <a href="/" class="download-button zip"><span>Home</span></a>
+	      {{ page.description | default: site.github.project_tagline }}
+	        <!-- <a href="/" class="download-button zip"><span>Home</span></a>
           {% if site.show_downloads %}
           <a href="{{ site.github.tar_url }}" class="download-button tar"><span>Download</span></a>
           <a href="{{ site.github.zip_url }}" class="download-button zip"><span>Download</span></a>
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="code">View {{ site.title | default: site.github.repository_name }} on GitHub</a> -->
         </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          {{ content }}
-          <a class="download-button zip" href="/"><span>Home</span></a>
-        </article>
+      <span class="blc"></span><span class="trc"></span>
       </div>
-    
-  </div>
+      <article class="markdown-body">
+        {{ content }}
+        <a class="download-button zip" href="/"><span>Home</span></a>
+      </article>
+    </div>
+</div>
 
 <footer class="footer mt-auto py-3" style=" background-color: turquoise;">                     
   <div class="owner">
