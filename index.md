@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default2
 title: ":octocat: Home"
 description: ":notebook: マークダウンメモ・Home"
 date: "2025/07/27"
