@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":bulb: 電気、電子回路"
-description: ":pen: 積分回路について"
+title: ":bulb: 積分回路について"
+description: "Contents"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

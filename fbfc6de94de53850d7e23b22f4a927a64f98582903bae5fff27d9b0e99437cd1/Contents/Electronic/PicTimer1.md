@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":bulb: 電気、PICマイコン"
-description: ":memo: PICマイコン／タイマー１について"
+title: ":bulb: PICマイコン／タイマー１について"
+description: "Contents"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---
