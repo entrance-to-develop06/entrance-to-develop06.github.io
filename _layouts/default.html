@@ -218,7 +218,11 @@
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
 
-      function hash(text) {
+      
+    </script>
+  {% endif %}
+  <script>
+  function hash(text) {
         const sha = new jsSHA('SHA-256', 'TEXT');
         sha.update(text);
         return sha.getHash('HEX');
@@ -249,7 +253,6 @@
         auth(password);
         event.preventDefault();
       });
-    </script>
-  {% endif %}
+  </script>
 </body>
 </html>
