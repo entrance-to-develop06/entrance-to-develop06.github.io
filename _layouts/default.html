@@ -221,6 +221,7 @@
       
     </script>
   {% endif %}
+
   <script>
   function hash(text) {
         const sha = new jsSHA('SHA-256', 'TEXT');
@@ -238,7 +239,7 @@
           } else {
             const message = document.getElementById('message');
             const input = document.getElementById('password');
-            message.innerHTML = 'Wrong password! Try again.';
+            message.innerHTML = 'パスワードが違います。もう一度入力してください。';
             input.value = '';
           }
         };
