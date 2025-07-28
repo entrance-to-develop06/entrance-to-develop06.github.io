@@ -8,12 +8,12 @@ lastmod: "2025/07/27"
 
 <div class="row">
       <div class="col-xl-4"></div>
-      <div class="col-xl-6">
+      <div class="col-xl-5">
             <form id="form">
                   <p id="message" class="h3 text-center">パスワードを入力してください。</p>
-                  <input type="password" placeholder="パスワード" id="password" class="form-control form-control-sm">
+                  <input type="password" placeholder="ここに入力してください。" id="password" class="form-control form-control-sm">
             </form>
       </div>
-      <div class="col-xl-2"></div>
+      <div class="col-xl-3"></div>
 </div>
 ___

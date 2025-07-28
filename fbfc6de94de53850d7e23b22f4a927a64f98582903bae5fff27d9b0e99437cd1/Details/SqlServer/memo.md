@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":bar_chart: Microsoft SQL Server"
-description: ":exclamation: Microsoft SQL Server注意点・他"
+title: ":exclamation: Microsoft SQL Server注意点・他"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

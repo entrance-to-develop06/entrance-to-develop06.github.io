@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":leaves: Spring Boot"
-description: ":closed_lock_with_key: Spring Boot Securityによる認証"
+title: ":closed_lock_with_key: Spring Boot Securityによる認証"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

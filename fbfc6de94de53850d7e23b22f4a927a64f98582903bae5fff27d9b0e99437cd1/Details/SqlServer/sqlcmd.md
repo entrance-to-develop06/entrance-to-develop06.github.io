@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":bar_chart: Microsoft SQL Server"
-description: ":book: Microsoft SQLServerコマンド(sqlcmd)"
+title: ":bar_chart: Microsoft SQLServerコマンド(sqlcmd)"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

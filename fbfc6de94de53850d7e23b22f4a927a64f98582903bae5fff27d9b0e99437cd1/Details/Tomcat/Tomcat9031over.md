@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":smiley_cat: Apache Tomcat"
-description: ":exclamation: Apache Tomcat 9.0.31以降のAJP接続について"
+title: ":smiley_cat: Apache Tomcat 9.0.31以降のAJP接続につい"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

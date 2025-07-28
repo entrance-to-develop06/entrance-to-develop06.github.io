@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":leaves: Spring Boot"
-description: ":clipboard: Spring BootでのHTTPS通信手順"
+title: ":leaves: Spring BootでのHTTPS通信手順"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2022/01/08"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":leaves: Spring Boot"
-description: ":leaves: Spring Boot・プロジェクトの作成～フレームワーク入門"
+title: ":leaves: Spring Boot・プロジェクトの作成～フレームワーク入門"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

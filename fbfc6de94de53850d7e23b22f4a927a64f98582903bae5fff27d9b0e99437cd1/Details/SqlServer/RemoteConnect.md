@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":bar_chart: Microsoft SQL Server"
-description: ":computer: Microsoft SQLServerリモート接続について"
+title: ":computer: Microsoft SQLServerリモート接続について"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

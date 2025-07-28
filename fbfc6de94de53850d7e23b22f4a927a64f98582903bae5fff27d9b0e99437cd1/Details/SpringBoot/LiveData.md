@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":leaves: Spring Boot"
-description: ":exclamation: Spring Boot Tool SuiteによるLive data エラー"
+title: ":exclamation: Spring Boot Tool SuiteによるLive data エラー"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

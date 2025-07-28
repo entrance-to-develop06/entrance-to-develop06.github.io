@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: Oracle Database"
-description: ":wrench: Oracle SQL Developerインストール"
+title: ":package: Oracle SQL Developerインストール"
+description: "Details"
 date: "2023/01/02"
 lastmod: "2023/01/02"
 ---

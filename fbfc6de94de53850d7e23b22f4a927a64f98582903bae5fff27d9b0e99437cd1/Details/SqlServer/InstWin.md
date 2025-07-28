@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: Microsoft SQL Server"
-description: ":wrench: Microsoft SQL Serverインストール"
+title: ":wrench: Microsoft SQL Serverインストール"
+description: "Details"
 date: "2023/01/02"
 lastmod: "2023/01/02"
 ---

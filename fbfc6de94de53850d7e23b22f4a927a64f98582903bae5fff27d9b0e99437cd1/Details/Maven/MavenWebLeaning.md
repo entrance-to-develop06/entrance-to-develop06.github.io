@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: Apache Maven"
-description: ":memo: MavenプロジェクトでServletを使う手順"
+title: ":package: MavenプロジェクトでServletを使う手順"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---
