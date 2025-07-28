@@ -1,5 +1,5 @@
 ---
-layout: default2
+layout: login
 title: ":memo: パスワード認証"
 description: ":notebook: マークダウンメモ・Home"
 date: "2025/07/27"
