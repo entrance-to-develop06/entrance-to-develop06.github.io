@@ -1,6 +1,6 @@
 ---
 layout: success
-title: ":memo: Microsoft Windows"
+title: ":memo: トップページ"
 description: "Details"
 date: "2025/07/27"
 lastmod: "2025/07/27"
