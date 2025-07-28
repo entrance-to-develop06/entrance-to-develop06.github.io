@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":clipboard: ASP.NET 自己署名証明書について"
+title: ":clipboard: ASP.NET 自己署名証明書について"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

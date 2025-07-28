@@ -1,6 +1,6 @@
 ---
 layout: login
-title: ":memo: パスワード認証"
+title: ":closed_lock_with_key: パスワード認証"
 description: ":notebook: マークダウンメモ・Home"
 date: "2025/07/27"
 lastmod: "2025/07/27"

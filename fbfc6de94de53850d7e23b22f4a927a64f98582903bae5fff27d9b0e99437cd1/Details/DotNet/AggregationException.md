@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":exclamation: .NETにおける集約例外ハンドラー"
+title: ":exclamation: .NETにおける集約例外ハンドラー"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

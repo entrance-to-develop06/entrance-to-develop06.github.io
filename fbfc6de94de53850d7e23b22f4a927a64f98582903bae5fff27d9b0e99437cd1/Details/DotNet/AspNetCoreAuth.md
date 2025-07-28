@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":closed_lock_with_key: ASP.NET Core Web API 認証について"
+title: ":closed_lock_with_key: ASP.NET Core Web API 認証について"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

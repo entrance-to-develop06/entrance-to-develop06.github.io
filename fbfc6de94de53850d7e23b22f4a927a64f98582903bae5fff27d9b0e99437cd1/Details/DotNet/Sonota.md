@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":black_nib: .NET その他のメモ"
+title: ":black_nib: .NET その他のメモ"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

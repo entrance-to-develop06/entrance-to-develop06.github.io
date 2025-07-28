@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":globe_with_meridians: ASP.NET Core Web APIの作成手順"
+title: ":globe_with_meridians: ASP.NET Core Web APIの作成手順"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/07/15"
 ---

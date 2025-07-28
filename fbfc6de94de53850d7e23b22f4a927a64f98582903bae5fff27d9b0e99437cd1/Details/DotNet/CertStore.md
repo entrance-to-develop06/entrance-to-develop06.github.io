@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":clipboard: Windows証明書ストアへ公開鍵証明書を登録"
+title: ":clipboard: Windows証明書ストアへ公開鍵証明書を登録"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

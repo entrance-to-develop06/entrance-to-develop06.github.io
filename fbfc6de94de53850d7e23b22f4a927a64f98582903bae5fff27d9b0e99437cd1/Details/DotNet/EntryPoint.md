@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: .NET(C#、VB.NET、C++/CLI、F#)"
-description: ":black_nib: .NETにおけるエントリーポイントの作成"
+title: ":black_nib: .NETにおけるエントリーポイントの作成"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---
