@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: PHP、Apache HTTP Server、Eclipse Foundation"
-description: ":pencil2: Apache + PHP個別でPHPの環境構築"
+title: "::pencil2: Apache + PHP個別でPHPの環境構築"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: XAMPP"
-description: ":computer: Xampp一括でPHPの環境構築"
+title: ":computer: Xampp一括でPHPの環境構築"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---
