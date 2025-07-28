@@ -30,9 +30,10 @@
       <a class="download-button zip" href="/"><span>Home</span></a>
       <div class="btn-group">
           <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">電機制御盤</button>
-          <li><a class="dropdown-item" href="../ControlPanel/ControlPanel">電機制御盤</a></li>
+          <ul class="dropdown-menu"></ul>
+            <li><a class="dropdown-item" href="../ControlPanel/ControlPanel">電機制御盤</a></li>
+          </ul>
       </div>
-
       <div class="btn-group">
           <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">電子工作</button>
           <ul class="dropdown-menu">
@@ -43,127 +44,120 @@
       </div>
 
       <div class="btn-group">
-      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">.NET</button>
-      <div class="dropdown-menu">
-
-	<a class="dropdown-item" href="/Contents/DotNet/TimerSleep">タイマーとスリープ</a>
-	<a class="dropdown-item" href="/Contents/DotNet/ThreadAsync">スレッド、非同期</a>
-	<a class="dropdown-item" href="/Contents/DotNet/Reigai">例外処理</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AggregationException">集約例外ハンドラー</a>
-	<a class="dropdown-item" href="/Contents/DotNet/EntryPoint">エントリーポイントの作成</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AspNetCoreApi">ASP.NET Core Web API</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AspNetSsl">ASP.NET 自己署名証明書</a>
-	<a class="dropdown-item" href="/Contents/DotNet/CertStore">Windows証明書ストア</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AspNetCoreAuth">ASP.NET Core Web API 認証</a>
-	<a class="dropdown-item" href="/Contents/DotNet/Sonota">.NETその他</a>
-      </div>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">.NET</button>
+        <ul class="dropdown-menu">
+	        <a class="dropdown-item" href="/Contents/DotNet/TimerSleep">タイマーとスリープ</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/ThreadAsync">スレッド、非同期</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/Reigai">例外処理</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/AggregationException">集約例外ハンドラー</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/EntryPoint">エントリーポイントの作成</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/AspNetCoreApi">ASP.NET Core Web API</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/AspNetSsl">ASP.NET 自己署名証明書</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/CertStore">Windows証明書ストア</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/AspNetCoreAuth">ASP.NET Core Web API 認証</a>
+	        <a class="dropdown-item" href="/Contents/DotNet/Sonota">.NETその他</a>
+        </ul>
       </div>
 
       <div class="btn-group">
-      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Java</button>
-      <div class="dropdown-menu">
-	<a class="dropdown-item" href="/Contents/Java/AwtCrash">Swing、Awt関連での実行時クラッシュ</a>
-	<a class="dropdown-item" href="/Contents/Java/JdbcSqlSvr">JDBCでSQL Serverへ接続する注意点</a>
-	<a class="dropdown-item" href="/Contents/Java/LeaningCreate">JavaFx非対応でのOpenJFX環境構築</a>
-	<a class="dropdown-item" href="/Contents/Java/JavaSleepTimer">スリープ、タイマー</a>
-	<a class="dropdown-item" href="/Contents/Java/JavaFileRead">ファイル読み書き計測</a>
-	<a class="dropdown-item" href="/Contents/Java/AggregationException">集約例外ハンドラー</a>
-	<a class="dropdown-item" href="/Contents/Java/SslHttpsClient">HTTPS通信によるクライアント側設定</a>
-	<a class="dropdown-item" href="/Contents/Java/keytool">KeyToolでSSL証明書登録</a>
-	<div class="dropdown-divider"></div>
-	<a class="dropdown-item" href="/Contents/Tomcat/Tomcat9031over">Apache Tomcat 9.0.31以降のAJP接続</a>
-	<div class="dropdown-divider"></div>
-	<a class="dropdown-item" href="/Contents/Maven/MavenWebLeaning">MavenプロジェクトでServlet</a>
-	<div class="dropdown-divider"></div>
-	<a class="dropdown-item" href="/Contents/SpringBoot/LeaningCreate">Spring Bootスタータープロジェクト</a>
-	<a class="dropdown-item" href="/Contents/SpringBoot/VersionCheck">内部バージョン確認</a>
-	<a class="dropdown-item" href="/Contents/SpringBoot/SpringBootHttps">HTTPS通信手順</a>
-	<a class="dropdown-item" href="/Contents/SpringBoot/SpringBootAuth">Spring Boot Securityによる認証</a>
-	<a class="dropdown-item" href="/Contents/SpringBoot/LiveData">Live data エラー</a>
-      </div>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Java</button>
+        <ul class="dropdown-menu">
+	        <a class="dropdown-item" href="/Contents/Java/AwtCrash">Swing、Awt関連での実行時クラッシュ</a>
+	        <a class="dropdown-item" href="/Contents/Java/JdbcSqlSvr">JDBCでSQL Serverへ接続する注意点</a>
+	        <a class="dropdown-item" href="/Contents/Java/LeaningCreate">JavaFx非対応でのOpenJFX環境構築</a>
+	        <a class="dropdown-item" href="/Contents/Java/JavaSleepTimer">スリープ、タイマー</a>
+	        <a class="dropdown-item" href="/Contents/Java/JavaFileRead">ファイル読み書き計測</a>
+	        <a class="dropdown-item" href="/Contents/Java/AggregationException">集約例外ハンドラー</a>
+	        <a class="dropdown-item" href="/Contents/Java/SslHttpsClient">HTTPS通信によるクライアント側設定</a>
+	        <a class="dropdown-item" href="/Contents/Java/keytool">KeyToolでSSL証明書登録</a>
+	        <div class="dropdown-divider"></div>
+	        <a class="dropdown-item" href="/Contents/Tomcat/Tomcat9031over">Apache Tomcat 9.0.31以降のAJP接続</a>
+	        <div class="dropdown-divider"></div>
+	        <a class="dropdown-item" href="/Contents/Maven/MavenWebLeaning">MavenプロジェクトでServlet</a>
+	        <div class="dropdown-divider"></div>
+	        <a class="dropdown-item" href="/Contents/SpringBoot/LeaningCreate">Spring Bootスタータープロジェクト</a>
+	        <a class="dropdown-item" href="/Contents/SpringBoot/VersionCheck">内部バージョン確認</a>
+	        <a class="dropdown-item" href="/Contents/SpringBoot/SpringBootHttps">HTTPS通信手順</a>
+	        <a class="dropdown-item" href="/Contents/SpringBoot/SpringBootAuth">Spring Boot Securityによる認証</a>
+	        <a class="dropdown-item" href="/Contents/SpringBoot/LiveData">Live data エラー</a>
+        </ul>
       </div>
       
       <div class="btn-group">
-      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">開発環境構築</button>
-      <div class="dropdown-menu">
-        <li><a class="dropdown-item" href="/Contents/Ide/VisualStudio/InstWin">Microsoft Visual Studioインストール</a></li>
-        <a class="dropdown-item" href="/Contents/VisualStudio/VsFsharpInstall">F#とVisualStudioの開発環境</a>
-	<a class="dropdown-item" href="/Contents/VisualStudio/VsCppCliInstall">C++/CLIとVisualStudioの開発環境</a>
-	<a class="dropdown-item" href="/Contents/VisualStudio/VsPythonInstall">IronPythonとVisualStudioの開発環境</a>
-	<a class="dropdown-item" href="/Contents/VisualStudio/VsOther">Microsoft Visual Studio その他</a>
-        <div class="dropdown-divider"></div>
-        <li><a class="dropdown-item" href="/Contents/Ide/VisualStudioCode/InstWin">Microsoft Visual Studio Codeインストール</a></li>
-        <li><a class="dropdown-item" href="/Contents/Ide/VisualStudioCode/Plugin">Microsoft Visual Studio Codeプラグイン</a></li>
-        <div class="dropdown-divider"></div>
-        <li><a class="dropdown-item" href="/Contents/Ide/Idea/InstWin">JetBrains IntelliJ IDEAインストール</a></li>
-        <li><a class="dropdown-item" href="/Contents/Ide/Idea/Plugin">JetBrains IntelliJ IDEA日本語プラグイン</a></li>
-        <li><a class="dropdown-item" href="/Contents/Ide/Idea/Setting">JetBrains IntelliJ IDEA各種設定</a></li>
-        <div class="dropdown-divider"></div>
-	<a class="dropdown-item" href="/Contents/Eclipse/ColorThemes">ColorThemes色の変更</a>
-	<a class="dropdown-item" href="/Contents/Eclipse/InstallOrigin">Enterprise Java環境構築(Windows)</a>
-	<a class="dropdown-item" href="/Contents/Eclipse/SvrTomcat">サーバーTomcatの設定追加</a>
-	<a class="dropdown-item" href="/Contents/Eclipse/EclipsePhp">PHP開発環境の構築</a>
-	<a class="dropdown-item" href="/Contents/Eclipse/Xdebug">PHPのデバッガーXdebug</a>
-	<a class="dropdown-item" href="/Contents/Eclipse/EclipsePhpError">PHPプロジェクトが作成ができなくなった</a>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">開発環境構築</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/Contents/Ide/VisualStudio/InstWin">Microsoft Visual Studioインストール</a></li>
+          <a class="dropdown-item" href="/Contents/VisualStudio/VsFsharpInstall">F#とVisualStudioの開発環境</a>
+	        <a class="dropdown-item" href="/Contents/VisualStudio/VsCppCliInstall">C++/CLIとVisualStudioの開発環境</a>
+	        <a class="dropdown-item" href="/Contents/VisualStudio/VsPythonInstall">IronPythonとVisualStudioの開発環境</a>
+	        <a class="dropdown-item" href="/Contents/VisualStudio/VsOther">Microsoft Visual Studio その他</a>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="/Contents/Ide/VisualStudioCode/InstWin">Microsoft Visual Studio Codeインストール</a></li>
+          <li><a class="dropdown-item" href="/Contents/Ide/VisualStudioCode/Plugin">Microsoft Visual Studio Codeプラグイン</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="/Contents/Ide/Idea/InstWin">JetBrains IntelliJ IDEAインストール</a></li>
+          <li><a class="dropdown-item" href="/Contents/Ide/Idea/Plugin">JetBrains IntelliJ IDEA日本語プラグイン</a></li>
+          <li><a class="dropdown-item" href="/Contents/Ide/Idea/Setting">JetBrains IntelliJ IDEA各種設定</a></li>
+          <div class="dropdown-divider"></div>
+	        <a class="dropdown-item" href="/Contents/Eclipse/ColorThemes">ColorThemes色の変更</a>
+	        <a class="dropdown-item" href="/Contents/Eclipse/InstallOrigin">Enterprise Java環境構築(Windows)</a>
+	        <a class="dropdown-item" href="/Contents/Eclipse/SvrTomcat">サーバーTomcatの設定追加</a>
+	        <a class="dropdown-item" href="/Contents/Eclipse/EclipsePhp">PHP開発環境の構築</a>
+	        <a class="dropdown-item" href="/Contents/Eclipse/Xdebug">PHPのデバッガーXdebug</a>
+	        <a class="dropdown-item" href="/Contents/Eclipse/EclipsePhpError">PHPプロジェクトが作成ができなくなった</a>
+        </ul>
       </div>
-      </div>
-
       <div class="btn-group">
-      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHP</button>
-      <div class="dropdown-menu">
-	<a class="dropdown-item" href="/Contents/Php/XamppPhpSet">Xampp一括でPHPの環境構築</a>
-	<a class="dropdown-item" href="/Contents/Php/PhpWinSet">Apache + PHP個別でPHPの環境構築</a>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHP</button>
+        <ul class="dropdown-menu">
+	        <li><a class="dropdown-item" href="../Php/XamppPhpSet">Xampp一括でPHPの環境構築</a></li>
+	        <li><a class="dropdown-item" href="../Php/PhpWinSet">Apache + PHP個別でPHPの環境構築</a></li>
+        </ul>
       </div>
-      </div>
-
       <div class="btn-group">
         <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">データベース</button>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/Contents/SqlServer/InstWin">Microsoft SQL Serverインストール</a></li>
-          <li><a class="dropdown-item" href="/Contents/SqlServer/Ssms/InstWin">Microsoft SQL ServerManagement Studioインストール</a></li>
-	        <li><a class="dropdown-item" href="/Contents/SqlServer/memo">Microsoft SQL Server注意点</a></li>
-	        <li><a class="dropdown-item" href="/Contents/SqlServer/sqlcmd">sqlcmd</a>
-	        <li><a class="dropdown-item" href="/Contents/SqlServer/RemoteConnect">Microsoft SQLServerリモート接続</a></li>
+          <li><a class="dropdown-item" href="../SqlServer/InstWin">Microsoft SQL Serverインストール</a></li>
+          <li><a class="dropdown-item" href="../SqlServer/Ssms/InstWin">Microsoft SQL ServerManagement Studioインストール</a></li>
+	        <li><a class="dropdown-item" href="../SqlServer/memo">Microsoft SQL Server注意点</a></li>
+	        <li><a class="dropdown-item" href="../SqlServer/sqlcmd">sqlcmd</a>
+	        <li><a class="dropdown-item" href="../SqlServer/RemoteConnect">Microsoft SQLServerリモート接続</a></li>
           <div class="dropdown-divider"></div>
-          <li><a class="dropdown-item" href="/Contents/Oracle/InstWin">Oracle Databaseインストール</a></li>
-          <li><a class="dropdown-item" href="/Contents/Oracle/SqlDeveloper/InstWin">Oracle SQL Developerインストール</a></li>
-	        <li><a class="dropdown-item" href="/Contents/Oracle/sqlplus">sql * plus</a></li>
-	        <li><a class="dropdown-item" href="/Contents/Oracle/memo">Oracle Database注意点</a></li>
+          <li><a class="dropdown-item" href="../Oracle/InstWin">Oracle Databaseインストール</a></li>
+          <li><a class="dropdown-item" href="../Oracle/SqlDeveloper/InstWin">Oracle SQL Developerインストール</a></li>
+	        <li><a class="dropdown-item" href="../Oracle/sqlplus">sql * plus</a></li>
+	        <li><a class="dropdown-item" href="../Oracle/memo">Oracle Database注意点</a></li>
         </ul>
       </div>  
       <div class="btn-group">
-      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">スマートフォン</button>
-      <div class="dropdown-menu">
-	<a class="dropdown-item" href="/Contents/AndroidStudio/InstWin">Android Studioのセットアップ</a>
-	<a class="dropdown-item" href="/Contents/AndroidStudio/NewProject">Android Studioの新規プロジェクト</a>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">スマートフォン</button>
+        <ul class="dropdown-menu">
+	        <li><a class="dropdown-item" href="../AndroidStudio/InstWin">Android Studioのセットアップ</a></li>
+	        <li><a class="dropdown-item" href="../AndroidStudio/NewProject">Android Studioの新規プロジェクト</a></li>
+        </ul>
       </div>
-      </div>
-
       <div class="btn-group">
-      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Git</button>
-      <div class="dropdown-menu">
-	<a class="dropdown-item" href="../GitGitHub/GitGitHub">Git、GitHub設定</a>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Git</button>
+        <ul class="dropdown-menu">
+	        <li><a class="dropdown-item" href="../GitGitHub/GitGitHub">Git、GitHub設定</a></li>
+        </ul>
       </div>
-      </div>
-
       <div class="btn-group">
         <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Linux</button>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/Contents/Redhat/RedhatCom">RedHat系コマンド・全般</a></li>
-          <li><a class="dropdown-item" href="/Contents/Redhat/RedhatPkgUp">RedHat系パッケージ更新</a></li>
+          <li><a class="dropdown-item" href="../Redhat/RedhatCom">RedHat系コマンド・全般</a></li>
+          <li><a class="dropdown-item" href="../Redhat/RedhatPkgUp">RedHat系パッケージ更新</a></li>
         </ul>
-        </div>
-
+      </div>
       <div class="btn-group">
         <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">その他</button>
         <div class="dropdown-menu dropdown-menu-end">
-	        <a class="dropdown-item" href="/Contents/PathSetting/PathSettingWin">Path設定、環境変数設定(Windows)</a>
+	        <a class="dropdown-item" href="../PathSetting/PathSettingWin">Path設定、環境変数設定(Windows)</a>
 	        <div class="dropdown-divider"></div>
-	        <a class="dropdown-item" href="/Contents/VisualStudio/VsCodePlugin">Microsoft Visual Studio Codeのプラグイン</a>
-	        <a class="dropdown-item" href="/Contents/SublimeText3/PackageControl">Sublime Text3プラグイン</a>
+	        <a class="dropdown-item" href="../VisualStudio/VsCodePlugin">Microsoft Visual Studio Codeのプラグイン</a>
+	        <a class="dropdown-item" href="../SublimeText3/PackageControl">Sublime Text3プラグイン</a>
         </div>
       </div>
-
     </div>
   </nav>
   <!-- <h1 class="title">{{ page.title | default: site.github.repository_name }}</h1> -->
