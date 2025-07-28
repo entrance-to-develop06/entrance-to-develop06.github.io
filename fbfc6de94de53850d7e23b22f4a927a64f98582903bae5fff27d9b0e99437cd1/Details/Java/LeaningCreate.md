@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
-description: ":black_nib: JavaFX非対応時のOpenJFX環境構築と空ウィンドウ作成まで"
+title: ":black_nib: JavaFX非対応時のOpenJFX環境構築と空ウィンドウ作成まで"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

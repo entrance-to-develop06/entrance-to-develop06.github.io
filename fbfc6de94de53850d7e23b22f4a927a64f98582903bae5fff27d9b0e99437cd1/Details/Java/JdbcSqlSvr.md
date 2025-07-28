@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
-description: ":black_nib: JavaでJDBCを使いMicrosoft SQL Serverへ接続する注意点"
+title: ":black_nib: JavaでJDBCを使いMicrosoft SQL Serverへ接続する注意点"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/10/10"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
-description: ":black_nib: Javaによるスリープとタイマーの使い方"
+title: ":black_nib: Javaによるスリープとタイマーの使い方"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2021/07/30"
 ---

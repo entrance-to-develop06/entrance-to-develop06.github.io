@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
-description: ":exclamation: Javaによる集約例外ハンドラー"
+title: ":exclamation: Javaによる集約例外ハンドラー"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

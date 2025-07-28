@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
-description: ":question: Swing、Awt関連での実行時クラッシュについて"
+title: ":question: Swing、Awt関連での実行時クラッシュについて"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---
