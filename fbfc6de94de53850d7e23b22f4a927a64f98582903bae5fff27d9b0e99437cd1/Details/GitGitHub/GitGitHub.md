@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ":octocat: Git、GitHub環境構築メモ"
-description: "Contents"
+description: "Details"
 date: "2019/08/30"
 lastmod: "2022/12/15"
 ---

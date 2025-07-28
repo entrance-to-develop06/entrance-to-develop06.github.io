@@ -1,7 +1,7 @@
 ---
 layout: success
 title: ":memo: Microsoft Windows"
-description: "Contents"
+description: "Details"
 date: "2025/07/27"
 lastmod: "2025/07/27"
 ---
