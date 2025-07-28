@@ -6,9 +6,10 @@ date: "2025/07/27"
 lastmod: "2025/07/27"
 ---
 
+<div class="col-xl-4">
 <form id="form">
       <p id="message">パスワードを入力してください。</p>
-      <input type="password" placeholder="パスワード" id="password">
+      <input type="password" placeholder="パスワード" id="password" class="form-control form-control-sm">
 </form>
-
+</div>
 ___
