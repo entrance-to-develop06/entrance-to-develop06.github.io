@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: success
 title: ":memo: Microsoft Windows"
 description: "Contents"
 date: "2025/07/27"
