@@ -27,25 +27,37 @@
 <header>
   <nav class="navbar navbar-expand-xl navbar-fixed-top" style="background-color: turquoise;">
     <div class="container">
+    <a class="download-button zip" href="/"><span>Home</span></a>
+    <div class="btn-group">
+      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">電機制御盤</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ page.description }}/ControlPanel/ControlPanel">電機制御盤</a></li>
+      </ul>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">電子工作</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ page.description }}/Electronic/Electronic">電子工作</a></li>
+        <li><a class="dropdown-item" href="{{ page.description }}/Electronic/Sekibun">積分回路について</a></li>
+	      <li><a class="dropdown-item" href="{{ page.description }}/Electronic/PicTimer1">PICマイコン／タイマー１</a></li>
+      </ul>
+    </div>
 
-      <a class="download-button zip" href="/"><span>Home</span></a>
-
-      <div class="btn-group">
+    <div class="btn-group">
       <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">.NET</button>
-      <div class="dropdown-menu">
-
-	<a class="dropdown-item" href="/Contents/DotNet/TimerSleep">タイマーとスリープ</a>
-	<a class="dropdown-item" href="/Contents/DotNet/ThreadAsync">スレッド、非同期</a>
-	<a class="dropdown-item" href="/Contents/DotNet/Reigai">例外処理</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AggregationException">集約例外ハンドラー</a>
-	<a class="dropdown-item" href="/Contents/DotNet/EntryPoint">エントリーポイントの作成</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AspNetCoreApi">ASP.NET Core Web API</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AspNetSsl">ASP.NET 自己署名証明書</a>
-	<a class="dropdown-item" href="/Contents/DotNet/CertStore">Windows証明書ストア</a>
-	<a class="dropdown-item" href="/Contents/DotNet/AspNetCoreAuth">ASP.NET Core Web API 認証</a>
-	<a class="dropdown-item" href="/Contents/DotNet/Sonota">.NETその他</a>
-      </div>
-      </div>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="/Contents/DotNet/TimerSleep">タイマーとスリープ</a></ul>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/ThreadAsync">スレッド、非同期</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/Reigai">例外処理</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/AggregationException">集約例外ハンドラー</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/EntryPoint">エントリーポイントの作成</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/AspNetCoreApi">ASP.NET Core Web API</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/AspNetSsl">ASP.NET 自己署名証明書</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/CertStore">Windows証明書ストア</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/AspNetCoreAuth">ASP.NET Core Web API 認証</a></li>
+	      <li><a class="dropdown-item" href="/Contents/DotNet/Sonota">.NETその他</a></li>
+      </ul>
+    </div>
 
       <div class="btn-group">
       <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Java</button>
@@ -142,13 +154,7 @@
         </ul>
         </div>
 
-        <div class="btn-group">
-          <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">電気</button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ page.description }}/Electronic/Sekibun">積分回路について</a></li>
-	          <li><a class="dropdown-item" href="{{ page.description }}/Electronic/PicTimer1">PICマイコン／タイマー１</a></li>
-          </ul>
-        </div>
+        
 
       <div class="btn-group">
         <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">その他</button>
