@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  ":computer: Linux"
-description: ":wrench: RedHat系コマンド"
+title:  ":wrench: RedHat系コマンド"
+description: "Details"
 date: "2023/05/03"
 lastmod: "2023/05/03"
 ---

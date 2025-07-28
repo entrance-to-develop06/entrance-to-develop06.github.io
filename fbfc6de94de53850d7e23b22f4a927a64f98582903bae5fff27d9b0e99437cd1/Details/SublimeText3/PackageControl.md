@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":octocat: Sublime Text"
-description: ":wrench: Sublime Text3プラグインの活用"
+title: ":wrench: Sublime Text3プラグインの活用"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/07/07"
 ---

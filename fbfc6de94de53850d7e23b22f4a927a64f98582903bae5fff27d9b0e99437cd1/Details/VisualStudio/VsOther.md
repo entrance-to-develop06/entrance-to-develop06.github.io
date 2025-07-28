@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: Microsoft Visual Studio"
-description: ":wrench: Microsoft Visual Studio その他の設定"
+title: ":wrench: Microsoft Visual Studio その他の設定"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/20"
 ---

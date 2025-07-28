@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":iphone: Google Android Studio"
-description: ":iphone: Android Studioのセットアップ手順(Windows)"
+title: ":iphone: Android Studioのセットアップ手順(Windows)"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

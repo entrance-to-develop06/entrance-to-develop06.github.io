@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: Microsoft Visual Studio"
-description: ":wrench: Microsoft Visual Studio 2019でIronPythonを使うための環境構築"
+title: ":wrench: Microsoft Visual Studio 2019でIronPythonを使うための環境構築"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/10/10"
 ---

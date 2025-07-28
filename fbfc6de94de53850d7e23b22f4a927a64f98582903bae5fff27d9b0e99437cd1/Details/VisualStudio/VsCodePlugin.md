@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":package: Microsoft Visual Studio Code"
-description: ":wrench: Microsoft Visual Studio Codeのプラグインの活用"
+title: ":wrench: Microsoft Visual Studio Codeのプラグインの活用"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---

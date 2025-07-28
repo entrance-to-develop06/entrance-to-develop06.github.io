@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":iphone: Google Android Studio"
-description: ":iphone: Android Studioの新規プロジェクト作成手順"
+title: ":iphone: Android Studioの新規プロジェクト作成手順"
+description: "Details"
 date: "2020/05/17"
 lastmod: "2020/05/17"
 ---
