@@ -20,6 +20,9 @@ lastmod: "2025/07/29"
 ### 1-2. エンジニアリングソフトウェア  
 [MELSOFT iQ Works](https://www.mitsubishielectric.co.jp/fa/products/sft/melsoft/smerit/iq_works/index.html)  
 
+`リアルタイムモニタ`
+**GX Log Viewer**  
+
 ### 1-3. シリアル、LAN通信ユニット  
 `iQシリーズ`  
 [RJ71C24](https://www.mitsubishielectric.co.jp/fa/products/faspec/point.page?kisyu=/plcr&formNm=RJ71C24)  
@@ -38,6 +41,9 @@ lastmod: "2025/07/29"
 [Sysmac Studio](https://www.fa.omron.co.jp/products/family/3077/)  
 [CX-One](https://www.fa.omron.co.jp/products/family/1605/)  
 
+`リアルタイムモニタ`  
+**データトレース／タイムチャートモニタ**  
+
 <br />
 
 ## 3. キーエンス  
@@ -49,6 +55,9 @@ lastmod: "2025/07/29"
 
 ### 3-2. エンジニアリングソフトウェア  
 [KV Studio](https://www.keyence.co.jp/products/controls/plc-building/kv-8000/models/kv-h1j-dl/)  
+
+`リアルタイムモニタ`
+**リアルタイムチャートモニタ**  
 
 ### 3-3. シリアル通信ユニット  
 [KV-L20V](https://www.keyence.co.jp/products/controls/plc-building/kv-x/models/kv-l20v/)  
@@ -97,5 +106,13 @@ lastmod: "2025/07/29"
 [NR1 シリーズ](https://www.fujielectric.co.jp/products/drive_ctrl_equipment/plc/product_series/sph_product_information_devicecom.html)  
 [E-SXバス](https://www.fujielectric.co.jp/products/drive_ctrl_equipment/plc/product_series/sph_product_information_esxbus.html)  
 
+<br />
+
+## 5. 横河電機  
+### 5-2. エンジニアリングソフトウェア  
+[WideField3](https://www.yokogawa.co.jp/solutions/products-and-services/control/control-devices/programmable-logic-controller/plc-software/plc-programming-tool/)  
+
+`リアルタイムモニタ`  
+**Live Logic Analyzer**  
 
 ***
